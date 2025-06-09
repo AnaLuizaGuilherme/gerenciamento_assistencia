@@ -1,70 +1,89 @@
+# 🛠️ Sistema de Gerenciamento de Assistência Técnica / Technical Assistance Management System
 
-# Sistema de Gerenciamento de Assistência Técnica
+Este projeto foi desenvolvido como parte do curso de Ciência da Computação no Centro Universitário Braz Cubas — com foco em resolver problemas reais de gestão em empresas de assistência técnica.  
+This project was developed during the Computer Science course at Braz Cubas University Center — aiming to solve real-world management challenges in tech repair companies.
 
-Este sistema foi desenvolvido como parte do projeto acadêmico do curso de Ciência da Computação no Centro Universitário Braz Cubas, com o objetivo de otimizar o fluxo de trabalho em uma empresa de assistência técnica.
+---
 
-## 🎯 Objetivo
+## 🎯 Objetivo / Purpose
 
-Oferecer uma solução eficaz para o registro, acompanhamento e resolução de problemas técnicos relatados pelos clientes, bem como para a gestão interna de recursos como técnicos e peças de reposição.
+🇧🇷 Oferecer uma solução eficaz para o registro, acompanhamento e resolução de chamados técnicos, otimizando recursos como técnicos e peças de reposição.  
+🇺🇸 Provide an effective solution for registering, tracking, and resolving technical service requests while optimizing resources such as technicians and spare parts.
 
-## 📘 Cenário
+---
 
-Uma empresa de assistência técnica para dispositivos eletrônicos como smartphones, tablets e laptops, que lida diariamente com um grande volume de chamados. O sistema foi projetado para registrar e organizar esses atendimentos, alocar técnicos e controlar o estoque.
+## 📘 Cenário / Scenario
 
-## 🚧 Problemas Resolvidos
+🇧🇷 Uma empresa de assistência técnica que realiza reparos em smartphones, tablets e laptops, enfrentando alto volume de atendimentos diários.  
+🇺🇸 A tech repair company handling smartphones, tablets, and laptops, dealing with a high volume of daily service calls.
 
-- **Gestão de Chamados:** Registro, priorização e acompanhamento de chamados.
-- **Atribuição de Técnicos e Recursos:** Alocação eficaz de técnicos e peças.
-- **Comunicação com o Cliente:** Registro de atualizações e status do chamado.
-- **Gestão de Estoque:** Controle do nível de peças, com alertas para reposição.
-- **Análise de Desempenho:** Geração de relatórios para tomada de decisão.
+---
 
-## ⚙️ Funcionalidades
+## ✅ Problemas Resolvidos / Problems Solved
 
-- Cadastro de clientes e técnicos
-- Registro e acompanhamento de chamados
-- Atribuição de técnicos aos chamados
-- Controle de estoque de peças
-- Geração de relatórios
-- Armazenamento persistente em arquivos `.bin`
+- 🧾 **Gestão de Chamados** / Call Management  
+- 👩‍🔧 **Atribuição de Técnicos** / Technician Assignment  
+- 📦 **Controle de Estoque** / Inventory Management  
+- 📲 **Atualizações de Status para Clientes** / Status Updates for Customers  
+- 📈 **Geração de Relatórios** / Report Generation  
 
-## 🧱 Estrutura de Dados Utilizada
+---
 
-- **Fila:** Para organizar a ordem de atendimento.
-- **Lista:** Para manter os registros de clientes, técnicos e chamados.
-- **Pilha:** Para controlar as etapas do atendimento técnico (futuramente).
-- **QuickSort:** Pode ser usado para ordenar os chamados por prioridade.
+## ⚙️ Funcionalidades / Features
 
-## 📁 Arquivos Gerados
+- 👤 Cadastro de clientes e técnicos / Client and technician registration  
+- 📞 Registro e envio de chamados / Call logging and submission  
+- 🔧 Atribuição de técnicos aos chamados / Technician allocation  
+- 🧰 Controle de estoque de peças / Spare parts inventory  
+- 📊 Relatórios automatizados / Automated reports  
+- 💾 Armazenamento em arquivos `.bin` / Binary file storage  
 
-- `clientes.bin` — Dados dos clientes
-- `tecnicos.bin` — Dados dos técnicos
-- `chamados.bin` — Dados dos chamados
-- `estoque.bin` — Dados do estoque de peças
+---
 
-## 🖥️ Instruções de Compilação
+## 🧱 Estruturas de Dados Utilizadas / Data Structures Used
 
-Compile o projeto com:
+- 🗃️ **Fila (Queue):** Organização dos atendimentos  
+- 📋 **Lista (List):** Registro de clientes, técnicos e chamados  
+- 🧮 **Pilha (Stack):** Etapas de atendimento técnico (futuro)  
+- ⚡ **QuickSort:** Ordenação dos chamados por prioridade  
 
+---
+
+## 📁 Arquivos Gerados / Output Files
+
+- `clientes.bin` — Dados dos clientes / Client data  
+- `tecnicos.bin` — Técnicos cadastrados / Technician data  
+- `chamados.bin` — Histórico de chamados / Call records  
+- `estoque.bin` — Inventário de peças / Parts inventory  
+
+---
+
+## 🖥️ Compilação / Compilation
+
+### 🔧 Como compilar / How to compile:
 ```bash
 gcc main.c -o sistema
 ```
 
-Execute com:
-
+### ▶️ Como executar / How to run:
 ```bash
 ./sistema
 ```
 
-## 👨‍👩‍👧‍👦 Desenvolvedora
+---
 
-- Ana Luiza Guilherme
+## 👩‍💻 Desenvolvedora / Developer
 
-**Orientadora:** Andrea Ono Sakai, Dr.
-
+Ana Luiza Guilherme  
+Orientador: Andrea Ono Sakai, Dr.  
 📍 Mogi das Cruzes - SP  
 🗓️ 2024/1
 
 ---
 
-*Este projeto foi uma oportunidade de aplicar conceitos de algoritmos, estruturas de dados e modularização de sistemas, promovendo aprendizado prático e organizacional.*
+## 💡 Aprendizados / Learning Outcomes
+
+Este projeto me permitiu aplicar conceitos de estruturas de dados, modularização, persistência de arquivos e lógica de negócios em um contexto realista.  
+This project allowed me to apply data structure concepts, modular programming, file persistence, and business logic in a realistic scenario.
+
+---
