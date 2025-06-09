@@ -3,6 +3,15 @@
 Este projeto foi desenvolvido como parte do curso de Ciência da Computação no Centro Universitário Braz Cubas — com foco em resolver problemas reais de gestão em empresas de assistência técnica.  
 This project was developed during the Computer Science course at Braz Cubas University Center — aiming to solve real-world management challenges in tech repair companies.
 
+![C](https://img.shields.io/badge/Linguagem-C-blue?logo=c)
+![Estruturas de Dados](https://img.shields.io/badge/estruturas%20de%20dados-fila%20%7C%20lista%20%7C%20pilha-brightgreen)
+![Status](https://img.shields.io/badge/status-%20concluido-yellow)
+![Licença](https://img.shields.io/badge/licença-MIT-lightgrey)
+![Compilação](https://img.shields.io/badge/compilação-GCC-informational)
+![Arquivos](https://img.shields.io/badge/armazenamento-.bin%20files-orange)
+![Feito por](https://img.shields.io/badge/feito%20por-Ana%20Luiza%20Guilherme-purple)
+
+
 ---
 
 ## 🎯 Objetivo / Purpose
